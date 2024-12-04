@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Desierto Verde | Inicio </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet icon" href="img/logo_oficial.jpeg">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  <!------AQUI EMPIEZA LA BARRA DE NAVEGACION, ES CASI CASI EL PRINCIPIO DEL CSS---------->
+  <nav>
+    <div class="nav__bar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><p class="big"><a href="index.html">Desierto Verde</a></p></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">Desierto Verde</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="index_nosotros.html">¿Quienes somos?</a></li>
+          <li>
+            <a href="index_plantas.html">Plantas</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="index_cuidados.html">Cuidados</a></li>
+              <li><a href="index_jardineria.html">Jardineria</a></li>
+              <li><a href="index_utiles.html">Plantas Utiles</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="index_agua.html">Agua</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="index_ahorro_agua.html">Ahorro de Agua</a></li>
+              <li><a href="index_futuro.html">Futuro del agua</a></li>
+              <li><a href="index_importancia.html">Importancia del agua</a></li>
+            </ul>
+          </li>
+          <li><a href="index_clima.html">Clima</a></li>
+          <li><a href="index_reciclaje.html">Reciclaje</a></li>
+          <li><a href="index_unetenos.html">¡Unetenos!</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--CONTENIDO CON SWIPER DE LAS IMAGENES, ESTA MARCADO EL CSS TMB-->
+  <main>
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="img/fondo1.jpeg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Desierto Verde.</span>
+            <h2>
+              Viviendo el presente, cuidando el futuro
+            </h2>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="img/equipo3.jpeg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Desierto Verde</span>
+            <h2>
+              Termina tu servicio social con nosotros!
+            </h2>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="img/platicas1.jpeg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Desierto Verde</span>
+            <h2>
+              Aprende sobre las plantas!
+            </h2>
+            <button class="learn-more button">
+              <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+              </span>
+              <span class="button-text"><a href="index_informacion.html" style="text-decoration: none; color: white;">Ver mas</a></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Aqui comienza lo mio (karim) del circulo que te decia-->
+
+    <div class="bajar" id="btnAbajo"><a href="#sobre_n"><img src="img/flecha5.jpg"></a></div>
+
+    <!---CARTAS TMB CON EL SWIPER, Q ES UN "API" Q SIRVE PA MOVER LAS IMAGENES ASI SIN BOTONES--->
+    <div id="sobre_n"></div>
+    <div></div>
+    <h1 class="nosotros" >SOBRE NOSOTROS</h1>
+    <div class="container swiper">
+      <div class="card-wrapper">
+        <ul class="card-list swiper-wrapper">
+          <li class="card-item swiper-slide">
+            <a href="index_alumnos.html" class="card-link">
+              <img src="img/alumnos1.jpeg" alt="Card Image" class="card-image">
+              <p class="badge badge-designer">Alumnos</p>
+              <h2 class="card-title">Los alumnos del CBTIS 206 recolectando material reciclable</h2>
+              
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="index_maestros.html" class="card-link">
+              <img src="img/equipo5.jpeg" alt="Card Image" class="card-image">
+              <p class="badge badge-developer">Maestros</p>
+              <h2 class="card-title">Maestros lideres del club "Desierto Verde".</h2>
+              
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="index_logros.html" class="card-link">
+              <img src="img/ayudas3.jpeg" alt="Card Image" class="card-image">
+              <p class="badge badge-marketer">Logros</p>
+              <h2 class="card-title">Hemos dado platicas en diferentes escuelas.</h2>
+              
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="ayudas.html" class="card-link">
+              <img src="img/ayudas2.jpeg" alt="Card Image" class="card-image">
+              <p class="badge badge-gamer">Ayudas</p>
+              <h2 class="card-title">Apoyamos con informacion sobre el mantenimiento del plantel.</h2>
+              
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="metas.html" class="card-link">
+              <img src="img/equipo4.jpeg" alt="Card Image" class="card-image">
+              <p class="badge badge-editor">Metas</p>
+              <h2 class="card-title">Nuestra meta es expandir nuestro club a mas escuelas DGETI.</h2>
+              
+            </a>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class="swiper-slide-button swiper-button-next"></div>
+      </div>
+    </div>
+
+    <!-----LAS PREGUNTAS Q BAJAN, SE ME OLVIDO COMO SE LLAMAN JAJAJJAJ (ACORDEON SEGUN PERO AJA)----------->
+    <hr class=" separador">
+    <h1 class="nosotros">PREGUNTAS FRECUENTES</h1>
+    <div class="accordion">
+        <div class="accordion-content">
+            <header>
+                <span class="title">¿Que es Desierto Verde?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+              Desierto Verde es un club creado por varias docentes dentro del plantel del CBTIS 206, en el cual se dedican a cuidar de la escuela y del medio ambiente al mismo tiempo, juntando basura, etcetera. Haciendo que el plantel se vea mejor y dejandolo mas verde.
+            </p>
+        </div>
+
+        <div class="accordion-content">
+            <header>
+                <span class="title">¿Cuando tengo que asistir?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+              El horario establecido y acordado por las maestras fue, cada sabado de 8:00 am a 10:30 am. Hay algunos dias en que hacen expepciones, como por ejemplo con dias festivos, o en vacaciones pueden cambiar el dia, pero siguiendo la regla de 1 vez por semana.
+            </p>
+        </div>
+        <div class="accordion-content">
+            <header>
+                <span class="title">¿Como me registro?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+              Para registrarse en el Desierto Verde es muy facil y tienes dos formas de hacerlo. La primera y la mas facil y accesible es enviar un formulario que se encuentra en el sitio para que las maestras lo revisen, y si tienen espacio entras. O la segunda es ir directamente con las maestras cuando se encuentren dentro del plantel y preguntarles directamente si puedes formar parte.
+            </p>
+        </div>
+        <div class="accordion-content">
+            <header>
+                <span class="title">¿Cuando puedo empezar?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+              Puedes empezar el primer sabado desde que te acepten dentro del club. Solamente recuerda ser puntual y respetuoso, no solo con tus compañeros, si no tambien con el medio ambiente que te rodea.
+            </p>
+        </div>
+    </div>
+
+    <!----------AQUI INICIA EL FOOTER, ESO RARO SON LAS IMAGENES DE ICONOS K SE SACAN EN IONICONS----------------------->
+    <footer class="footer">
+      <ul class="social-icon">
+        <li class="icon-elem">
+          <a href="https://www.instagram.com/desierto_verde_cbtis206?igsh=MWRtcXN0c2Fybm56bQ==" class="icon" target="_blanck">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="https://www.tiktok.com/@desiertoverdecbtis206?_t=8rDyCcg0fiB&_r=1" class="icon" target="_blanck">
+            <ion-icon name="logo-tiktok"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="https://www.facebook.com/DESIERTOVERDECBTIS206?locale=es_LA" class="icon" target="_blanck">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li class="menu-elem">
+          <a href="index.html" class="menu-icon"> Inicio </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Nosotros </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Informacion </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Equipo </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Desierto Verde </a>
+        </li>
+      </ul>
+      <p class="text">2024 | Todos los derechos reservados</p>
+    </footer>
+    <!-------LOS LINKS PA CONECTARSE A LA PAGINA DE IONICONS------------>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- PA INICIAR EL SWIPER, YO NO LE MOVERIA-->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    
+    <!--------EL JAVASCRIPT NO ESTA EN LA CARPETA PK EL GOOGLE NO QUIERE DETECTAR EL ARCHIVO, ASI Q ASI LO DEJAREMOS X AHORA---------->
+    <script src="javascript/js.js"></script>
+
+</body>
+</html>
