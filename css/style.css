@@ -823,6 +823,10 @@ a.button:hover {
     height: auto;
     margin-bottom: 20px;
   }
+  .ayudas{
+  padding-left: 180px;
+  padding-right: 180px;
+  }
 }
 /*Fin de css karim*/
 
