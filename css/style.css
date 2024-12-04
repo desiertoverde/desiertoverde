@@ -85,7 +85,7 @@ nav .nav__bar{
   padding: 0 50px;
 }
 .nav__bar .logo a{
-  font-size: 30px;
+  font-size: clamp(1rem, 5vw, 1.8rem);
   color: #fff;
   text-decoration: none;
   font-weight: 600;
@@ -219,7 +219,7 @@ nav .nav__bar .links li:hover .js-sub-menu{
   }
 
   nav .nav__bar .logo a{
-    font-size: 27px;
+   font-size: clamp(1rem, 5vw, 1.8rem);
   }
   nav .nav__bar .links li{
     padding: 0 10px;
