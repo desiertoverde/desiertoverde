@@ -681,7 +681,7 @@ a.button:hover {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: clamp(8px, 4vw, 19px);
 }
 
 /*Css Karim*/
@@ -764,12 +764,13 @@ a.button:hover {
   padding-right: 180px;
 }
 .ayudas li{
+  font-size: clamp(10px, 4vw, 20px);
   text-align: justify;
   list-style: disc;
   margin-bottom: 10px;
 }
 .ayudas b{
-  font-size: 17px;
+  font-size: clamp(10px, 4vw, 20px);
 }
 .sobrenos{
   display: flex;
@@ -806,6 +807,22 @@ a.button:hover {
     margin-top: 140px;
 
   }
+  .ayudas{
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+  .footer {
+  position: absolute;
+  width: 100%;
+  background: var(--color2);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 }
 /*Fin de css karim*/
 
@@ -1009,7 +1026,7 @@ p.parrafo{
   padding-left: 180px;
   padding-right: 180px;
   text-align: justify;
-  font-size: 1em;
+  font-size: clamp(10px, 4vw, 20px);
   line-height: 1.6;
   color: #262626;
 }
