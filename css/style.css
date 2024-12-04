@@ -764,13 +764,12 @@ a.button:hover {
   padding-right: 180px;
 }
 .ayudas li{
-  font-size: clamp(10px, 4vw, 20px);
   text-align: justify;
   list-style: disc;
   margin-bottom: 10px;
 }
 .ayudas b{
-  font-size: clamp(10px, 4vw, 20px);
+  font-size: 17px;
 }
 .sobrenos{
   display: flex;
@@ -805,24 +804,25 @@ a.button:hover {
   }
   #icono1{
     margin-top: 140px;
-
   }
-  .ayudas{
-  padding-left: 10px;
-  padding-right: 10px;
+  .sobrenos{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
-  .footer {
-  position: absolute;
-  width: 100%;
-  background: var(--color2);
-  min-height: 100px;
-  padding: 20px 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
+  .sobrenos .parrafo{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sobrenos img{
+    width: 110%;
+    margin: 0;
+    height: auto;
+    margin-bottom: 20px;
+  }
 }
 /*Fin de css karim*/
 
