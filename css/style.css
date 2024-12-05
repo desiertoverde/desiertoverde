@@ -867,6 +867,10 @@ a.button:hover {
     height: auto;
     border-radius: 10%;
   }
+  .ayudas{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 /*Fin de css karim*/
 
