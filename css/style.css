@@ -1865,3 +1865,118 @@ section.carta {
   background-color: #fff;
   }
 }
+
+.about-us {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding: 90px 0;
+  background: #fff;
+  flex-direction: column; 
+}
+
+.pic {
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  margin-bottom: 20px; 
+}
+
+.about, .about2 {
+  width: 100%;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+.about2 {
+  flex-direction: row-reverse;
+}
+
+
+.textop {
+  width: 100%;
+  max-width: 540px;
+}
+
+.textop h2 {
+  color: #333;
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 20px ;
+  margin-bottom: 10px;
+}
+
+.textop h5 {
+  color: #333;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.spany {
+  color: #72a666;
+}
+
+.textop p {
+  color: #333;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+
+@media (max-width: 768px) {
+
+  .about, .about2 {
+    flex-direction: column;
+    text-align: center; 
+  }
+
+  .textop {
+    width: 90%; 
+    margin-bottom: 20px;
+  }
+
+  .pic {
+    width: 80%; 
+    max-width: 350px; 
+    margin-top: 20px; 
+  }
+
+  .textop h2 {
+    font-size: 50px; 
+  }
+
+  .textop h5 {
+    font-size: 18px; 
+  }
+
+  .textop p {
+    font-size: 16px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .textop h2 {
+    font-size: 40px;
+  }
+
+  .textop h5 {
+    font-size: 16px; 
+  }
+
+  .textop p {
+    font-size: 14px; 
+  }
+
+  .pic {
+    width: 100%; 
+    max-width: 250px; 
+  }
+}
