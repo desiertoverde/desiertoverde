@@ -15,10 +15,7 @@ let htmlcssArrow = document.querySelector(".htmlcss-arrow");
 htmlcssArrow.onclick = function() {
  navLinks.classList.toggle("show1");
 }
-/*let moreArrow = document.querySelector(".more-arrow");
-moreArrow.onclick = function() {
- navLinks.classList.toggle("show2");
-}*/
+
 let jsArrow = document.querySelector(".js-arrow");
 jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
@@ -29,20 +26,17 @@ new Swiper('.card-wrapper', {
     loop: true,
     spaceBetween: 30,
 
-    // Pagination bullets
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
         dynamicBullets: true
     },
 
-    // Navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
 
-    // Responsive breakpoints
     breakpoints: {
         0: {
             slidesPerView: 1
@@ -66,13 +60,13 @@ accordionContent.forEach((item, index) => {
 
         let description = item.querySelector(".description");
         if(item.classList.contains("open")){
-            description.style.height = `${description.scrollHeight}px`; //scrollHeight property returns the height of an element including padding , but excluding borders, scrollbar or margin
+            description.style.height = `${description.scrollHeight}px`;
             item.querySelector("i").classList.replace("fa-plus", "fa-minus");
         }else{
             description.style.height = "0px";
             item.querySelector("i").classList.replace("fa-minus", "fa-plus");
         }
-        removeOpen(index); //calling the funtion and also passing the index number of the clicked header
+        removeOpen(index); 
     })
 })
 
@@ -205,4 +199,5 @@ const getUserCoordinates = () => {
 
 locationButton.addEventListener("click", getUserCoordinates);
 searchButton.addEventListener("click", getCityCoordinates);
+
 cityInput.addEventListener("keyup", e => e.key === "Enter" && getCityCoordinates());
